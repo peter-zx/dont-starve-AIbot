@@ -1,0 +1,5 @@
+{
+    "timestamp": "2025-05-03T12:48:00",
+    "state": {"time": "day", "inventory": {"wood": 10}, "nearby": ["tree"]},
+    "action": {"type": "chop_tree", "target": {"x": 110, "y": 210}}
+}

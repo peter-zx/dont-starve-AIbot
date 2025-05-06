@@ -8,6 +8,34 @@ Dont Starve AI Bot
 
 这是一个针对《饥荒联机版》的自动化脚本项目，基于 Python 和 PyAutoGUI。当前功能包括：
 
+'''
+dont-starve-AIbot/
+├── scripts/                    # Python 脚本（智能体逻辑）
+│   ├── __init__.py
+│   ├── visual_parser.py        # OpenCV/pytesseract 状态解析
+│   ├── llm_decider.py          # LLM 决策
+│   ├── executor.py             # pyautogui 动作
+│   ├── replay_parser.py        # 解析辅助 mod JSON
+│   ├── main.py                 # 主程序
+│   └── config.py               # 配置
+├── mods/                       # DST mod
+│   ├── AIBotAgent/             # 智能体 mod（占位）
+│   │   ├── modinfo.lua
+│   │   └── modmain.lua
+│   ├── AIBotRecorder/          # 辅助 mod（数据收集）
+│   │   ├── modinfo.lua
+│   │   └── modmain.lua
+├── data/                       # 数据存储
+│   ├── replays/                # 辅助 mod JSON
+│   │   └── example.json
+│   ├── screenshots/            # 截图
+│   └── recordings/             # 录屏
+├── docs/                       # 文档
+│   ├── README.md               # 项目说明
+│   └── setup.md                # 环境配置
+├── requirements.txt            # Python 依赖
+└── .gitignore                  # Git 忽略（已有）
+'''
 
 
 
@@ -17,6 +45,8 @@ Dont Starve AI Bot
 
 
 截图并接入大语言模型分析（准备实现采集和建造）
+
+'''
 
 项目结构：
 
@@ -30,6 +60,8 @@ dont-starve-AIbot/
 ├── main.py
 ├── move_dst_window.py
 └── requirements.txt
+
+'''
 
 使用方式
 
